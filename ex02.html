@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 2</title>
+</head>
+<body>
+    <script>
+        var maiorQueCinquenta=[]
+        var menorQueCinquenta=[]
+        cont=0
+
+        while(cont<12){
+            var numeroRecebido= parseInt(window.prompt("Digite um número"))
+            if(numeroRecebido>50){
+                maiorQueCinquenta.push(numeroRecebido)
+            }else if(numeroRecebido<50){
+                menorQueCinquenta.push(numeroRecebido)
+            }
+            cont++
+        }
+        window.alert(`Esses são os número maiores que 50 foram: ${maiorQueCinquenta}`)
+        window.alert(`Esses são os número menores que 50 foram: ${menorQueCinquenta}`)
+    </script>
+</body>
+</html>
