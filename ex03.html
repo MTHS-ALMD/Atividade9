@@ -7,6 +7,40 @@
     <title>Exercício 03</title>
 </head>
 <body>
-    
+    <script>
+         var drofo = [
+            'anel da invisibilidade',
+            'par de botas mágicas',
+            'par de botas mágicas',
+            'poção do sono',
+            'poção da inocência',
+            'poção da inocência'
+        ]
+
+
+        var torper = [
+            'capa da invisibilidade',
+            'pedra do despertar',
+            'varinha das varinha',
+            'poção da inocência',
+            'poção da mentira',
+            'poção da mentira',
+            'poção anti-inteligência'
+        ]
+
+        torper.splice(4,1)
+        torper.splice(1,1) 
+        torper.push('par de botas mágicas') 
+        drofo.splice(1,1) 
+        torper.push('escudo mágico','espada mágica') 
+        
+        drofo.push('par de botas mágicas') 
+        drofo.splice(2,1) 
+        torper.splice(4,1) 
+        drofo.push('ovo de dragão','coxinha') 
+
+        document.write(`<h1>Inventário do Drofo</h1> ${drofo}`)
+        document.write(`<h1>Inventário do Torper</h1> ${torper}`)
+    </script>
 </body>
 </html>
